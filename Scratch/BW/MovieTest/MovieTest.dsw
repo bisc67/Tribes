@@ -1,0 +1,170 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "*MovieTest*"=.\MovieTest.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/T2/Scratch/BW/MovieTest", XINAAAAA
+    .
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name MoviePlayer
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Entropy
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name x_files
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name audiomgr
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name InevIop
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name NetLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name UI
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Entropy"=..\..\..\xCore\Entropy\Entropy.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/T2/xCore/Entropy", EDGAAAAA
+    ..\..\..\xcore\entropy
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "InevIop"=..\..\..\xCore\Entropy\PS2\IOP\InevIop\ineviop.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/T2/xCore/Entropy/PS2/IOP/InevIop", JFMAAAAA
+    ..\..\..\xcore\entropy\ps2\iop\ineviop
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "MoviePlayer"=..\..\..\Support\MoviePlayer\MoviePlayer.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/T2/Support/MoviePlayer", WINAAAAA
+    ..\..\..\support\movieplayer
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "NetLib"=..\..\..\Support\NetLib\NetLib.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/T2/Support/NetLib", OQHAAAAA
+    ..\..\..\support\netlib
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "UI"=..\..\..\Support\UI\UI.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/T2/Support/UI", YYMAAAAA
+    ..\..\..\support\ui
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "audiomgr"=..\..\..\Support\AudioMgr\audiomgr.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/T2/Support/AudioMgr", RSHAAAAA
+    ..\..\..\support\audiomgr
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "x_files"=..\..\..\xCore\x_files\x_files.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/T2/xCore/x_files", SVDAAAAA
+    ..\..\..\xcore\x_files
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+    begin source code control
+    "$/T2/Scratch/BW/MovieTest", XINAAAAA
+    .
+    end source code control
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

@@ -1,0 +1,94 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "CommandLine"=..\..\..\xCore\Auxiliary\CommandLine\CommandLine.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/Meridian/xCore/Auxiliary/CommandLine", SDEAAAAA
+    ..\..\..\xcore\auxiliary\commandline
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "SampleProfiler"=.\SampleProfiler.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/Meridian/Scratch/CG/SampleProfiler", KVKAAAAA
+    .
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name crt0_TextMode
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name x_files
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name CommandLine
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "crt0_TextMode"=..\..\..\xCore\Auxiliary\crt0_TextMode\crt0_TextMode.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/Meridian/xCore/Auxiliary/crt0_TextMode", TBJAAAAA
+    ..\..\..\xcore\auxiliary\crt0_textmode
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "x_files"=..\..\..\xCore\x_files\x_files.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/Meridian/xCore/x_files", YEEAAAAA
+    ..\..\..\xcore\x_files
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+    begin source code control
+    "$/Meridian/Scratch/CG/SampleProfiler", KVKAAAAA
+    .
+    end source code control
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

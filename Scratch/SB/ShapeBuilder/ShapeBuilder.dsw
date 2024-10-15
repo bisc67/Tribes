@@ -1,0 +1,170 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "*ShapeBuilder*"=.\ShapeBuilder.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/T2/Scratch/SB/ShapeBuilder", CSKAAAAA
+    .
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name aux_Bitmap
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name LabelSets
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Shape
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Tokenizer
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name x_files
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Entropy
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ObjectMgr
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Entropy"=..\..\..\xCore\Entropy\Entropy.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/T2/xCore/Entropy", BHGAAAAA
+    ..\..\..\xcore\entropy
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "LabelSets"=..\..\..\Support\LabelSets\LabelSets.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/T2/Support/LabelSets", GTDAAAAA
+    ..\..\..\support\labelsets
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "ObjectMgr"=..\..\..\Support\ObjectMgr\ObjectMgr.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/T2/Support/ObjectMgr", BFHAAAAA
+    ..\..\..\support\objectmgr
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "Shape"=..\..\..\Support\Shape\Shape.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/T2/Support/Shape", WWDAAAAA
+    ..\..\..\support\shape
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "Tokenizer"=..\..\..\Support\Tokenizer\Tokenizer.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/T2/Support/Tokenizer", LBEAAAAA
+    ..\..\..\support\tokenizer
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "aux_Bitmap"=..\..\..\xCore\Auxiliary\Bitmap\aux_Bitmap.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/T2/xCore/Auxiliary/bitmap", XEGAAAAA
+    ..\..\..\xcore\auxiliary\bitmap
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "x_files"=..\..\..\xCore\x_files\x_files.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/T2/xCore/x_files", COGAAAAA
+    ..\..\..\xcore\x_files
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+    begin source code control
+    "$/T2/Scratch/SB/ShapeBuilder", CSKAAAAA
+    .
+    end source code control
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

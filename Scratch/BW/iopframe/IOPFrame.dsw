@@ -1,0 +1,74 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "*iopboot*"=.\iopboot.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/T2/Scratch/BW/IOPFRAME/iopboot", LHPBAAAA
+    .
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name x_files
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "IOPFrame"=.\IOPFrame.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/T2/Scratch/BW/IOPFrame", CEPBAAAA
+    .
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name x_files
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name *iopboot*
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "x_files"=..\x_files\x_files.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/T2/Scratch/bw/x_files", SVDAAAAA
+    ..\x_files
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

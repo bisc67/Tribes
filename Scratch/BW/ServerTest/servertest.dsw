@@ -1,0 +1,166 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "*ServerTest*"=.\ServerTest.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/T2/Scratch/BW/ServerTest", FEEBAAAA
+    .
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Entropy
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name x_files
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name NetLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name audiomgr
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Tokenizer
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name cardmgr
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name MasterServer
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "CardMgr"=..\..\..\Support\CardMgr\cardmgr.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/T2/Support/cardmgr", DHNAAAAA
+    ..\..\..\support\cardmgr
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "Entropy"=..\..\..\xCore\Entropy\Entropy.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/T2/xCore/Entropy", BHGAAAAA
+    ..\..\..\xcore\entropy
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "MasterServer"=..\..\..\Support\MasterServer\MasterServer.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/T2/Support/MasterServer", ZDEBAAAA
+    ..\..\..\support\masterserver
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "NetLib"=..\..\..\Support\NetLib\NetLib.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/T2/Support/NetLib", OQHAAAAA
+    ..\..\..\support\netlib
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "Tokenizer"=..\..\..\Support\Tokenizer\Tokenizer.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/T2/Support/Tokenizer", IKHAAAAA
+    ..\..\..\support\tokenizer
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "audiomgr"=..\..\..\Support\AudioMgr\audiomgr.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/T2/Support/AudioMgr", RSHAAAAA
+    ..\..\..\support\audiomgr
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "x_files"=..\..\..\xCore\x_files\x_files.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/T2/xCore/x_files", SVDAAAAA
+    ..\..\..\xcore\x_files
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

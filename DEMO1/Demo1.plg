@@ -1,0 +1,430 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Poly - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "d:\temp\RSP27E.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "C:\Projects\t2\xCore\Entropy" /I "C:\Projects\t2\xCore\x_files" /I "c:\projects\t2\Support" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "X_DEBUG" /D "X_ASSERT" /Fp"Debug/poly.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Projects\t2\Support\Poly\poly.cpp"
+]
+Creating command line "cl.exe @d:\temp\RSP27E.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Debug\poly.lib"  .\Debug\poly.obj "
+<h3>Output Window</h3>
+Compiling...
+poly.cpp
+Creating library...
+<h3>
+--------------------Configuration: MasterServer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "d:\temp\RSP27F.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "C:\Projects\t2\xCore\..\Support" /I "C:\Projects\t2\xCore\entropy" /I "C:\Projects\t2\xCore\x_files" /D "_DEBUG" /D "X_DEBUG" /D "X_ASSERT" /D "WIN32" /D "_MBCS" /D "_LIB" /D "biscuit" /Fp"Debug/MasterServer.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Projects\t2\Support\MasterServer\bytestream.cpp"
+"C:\Projects\t2\Support\MasterServer\masterentity.cpp"
+"C:\Projects\t2\Support\MasterServer\MasterServer.cpp"
+"C:\Projects\t2\Support\MasterServer\masterstates.cpp"
+]
+Creating command line "cl.exe @d:\temp\RSP27F.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Debug\MasterServer.lib"  .\Debug\bytestream.obj .\Debug\masterentity.obj .\Debug\MasterServer.obj .\Debug\masterstates.obj "
+<h3>Output Window</h3>
+Compiling...
+bytestream.cpp
+masterentity.cpp
+MasterServer.cpp
+masterstates.cpp
+Creating library...
+<h3>
+--------------------Configuration: CleanText - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "d:\temp\RSP280.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "C:\Projects\t2\xCore\x_files" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "X_DEBUG" /D "X_ASSERT" /Fp"Debug/CleanText.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Projects\t2\Support\CleanText\cleantext.cpp"
+]
+Creating command line "cl.exe @d:\temp\RSP280.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Debug\CleanText.lib"  .\Debug\cleantext.obj "
+<h3>Output Window</h3>
+Compiling...
+cleantext.cpp
+Creating library...
+<h3>
+--------------------Configuration: StringMgr - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "d:\temp\RSP281.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "C:\Projects\t2\xCore\x_files" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "X_DEBUG" /D "X_ASSERT" /Fp"Debug/StringMgr.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Projects\t2\Support\StringMgr\StringMgr.cpp"
+]
+Creating command line "cl.exe @d:\temp\RSP281.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Debug\StringMgr.lib"  .\Debug\StringMgr.obj "
+<h3>Output Window</h3>
+Compiling...
+StringMgr.cpp
+Creating library...
+<h3>
+--------------------Configuration: aux_Bitmap - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "d:\temp\RSP282.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "C:\Projects\t2\xCore\x_files" /I "PNG" /I "PNG\ZLib" /D "_DEBUG" /D "_LIB" /D "X_DEBUG" /D "X_ASSERT" /D "WIN32" /D "_MBCS" /Fp"Debug/aux_Bitmap.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Projects\t2\xCore\Auxiliary\bitmap\PNG\ZLib\adler32.c"
+"C:\Projects\t2\xCore\Auxiliary\bitmap\PNG\ZLib\compress.c"
+"C:\Projects\t2\xCore\Auxiliary\bitmap\PNG\ZLib\crc32.c"
+"C:\Projects\t2\xCore\Auxiliary\bitmap\PNG\ZLib\deflate.c"
+"C:\Projects\t2\xCore\Auxiliary\bitmap\PNG\ZLib\gzio.c"
+"C:\Projects\t2\xCore\Auxiliary\bitmap\PNG\ZLib\infblock.c"
+"C:\Projects\t2\xCore\Auxiliary\bitmap\PNG\ZLib\infcodes.c"
+"C:\Projects\t2\xCore\Auxiliary\bitmap\PNG\ZLib\inffast.c"
+"C:\Projects\t2\xCore\Auxiliary\bitmap\PNG\ZLib\inflate.c"
+"C:\Projects\t2\xCore\Auxiliary\bitmap\PNG\ZLib\inftrees.c"
+"C:\Projects\t2\xCore\Auxiliary\bitmap\PNG\ZLib\infutil.c"
+"C:\Projects\t2\xCore\Auxiliary\bitmap\PNG\ZLib\trees.c"
+"C:\Projects\t2\xCore\Auxiliary\bitmap\PNG\ZLib\uncompr.c"
+"C:\Projects\t2\xCore\Auxiliary\bitmap\PNG\ZLib\zutil.c"
+"C:\Projects\t2\xCore\Auxiliary\bitmap\PNG\png.c"
+"C:\Projects\t2\xCore\Auxiliary\bitmap\PNG\pngerror.c"
+"C:\Projects\t2\xCore\Auxiliary\bitmap\PNG\pnggccrd.c"
+"C:\Projects\t2\xCore\Auxiliary\bitmap\PNG\pngget.c"
+"C:\Projects\t2\xCore\Auxiliary\bitmap\PNG\pngmem.c"
+"C:\Projects\t2\xCore\Auxiliary\bitmap\PNG\pngpread.c"
+"C:\Projects\t2\xCore\Auxiliary\bitmap\PNG\pngread.c"
+"C:\Projects\t2\xCore\Auxiliary\bitmap\PNG\pngrio.c"
+"C:\Projects\t2\xCore\Auxiliary\bitmap\PNG\pngrtran.c"
+"C:\Projects\t2\xCore\Auxiliary\bitmap\PNG\pngrutil.c"
+"C:\Projects\t2\xCore\Auxiliary\bitmap\PNG\pngset.c"
+"C:\Projects\t2\xCore\Auxiliary\bitmap\PNG\pngtrans.c"
+"C:\Projects\t2\xCore\Auxiliary\bitmap\PNG\pngvcrd.c"
+"C:\Projects\t2\xCore\Auxiliary\bitmap\PNG\pngwio.c"
+"C:\Projects\t2\xCore\Auxiliary\bitmap\PNG\pngwrite.c"
+"C:\Projects\t2\xCore\Auxiliary\bitmap\PNG\pngwtran.c"
+"C:\Projects\t2\xCore\Auxiliary\bitmap\PNG\pngwutil.c"
+"C:\Projects\t2\xCore\Auxiliary\bitmap\aux_Bitmap.cpp"
+"C:\Projects\t2\xCore\Auxiliary\bitmap\DefaultBMP.cpp"
+"C:\Projects\t2\xCore\Auxiliary\bitmap\Load_BMP.cpp"
+"C:\Projects\t2\xCore\Auxiliary\bitmap\Load_PNG.cpp"
+"C:\Projects\t2\xCore\Auxiliary\bitmap\Load_PSD.cpp"
+"C:\Projects\t2\xCore\Auxiliary\bitmap\Load_TGA.cpp"
+]
+Creating command line "cl.exe @d:\temp\RSP282.tmp" 
+Creating temporary file "d:\temp\RSP283.tmp" with contents
+[
+/nologo /out:"Debug\aux_Bitmap.lib" 
+.\Debug\adler32.obj
+.\Debug\compress.obj
+.\Debug\crc32.obj
+.\Debug\deflate.obj
+.\Debug\gzio.obj
+.\Debug\infblock.obj
+.\Debug\infcodes.obj
+.\Debug\inffast.obj
+.\Debug\inflate.obj
+.\Debug\inftrees.obj
+.\Debug\infutil.obj
+.\Debug\trees.obj
+.\Debug\uncompr.obj
+.\Debug\zutil.obj
+.\Debug\png.obj
+.\Debug\pngerror.obj
+.\Debug\pnggccrd.obj
+.\Debug\pngget.obj
+.\Debug\pngmem.obj
+.\Debug\pngpread.obj
+.\Debug\pngread.obj
+.\Debug\pngrio.obj
+.\Debug\pngrtran.obj
+.\Debug\pngrutil.obj
+.\Debug\pngset.obj
+.\Debug\pngtrans.obj
+.\Debug\pngvcrd.obj
+.\Debug\pngwio.obj
+.\Debug\pngwrite.obj
+.\Debug\pngwtran.obj
+.\Debug\pngwutil.obj
+.\Debug\aux_Bitmap.obj
+.\Debug\DefaultBMP.obj
+.\Debug\Load_BMP.obj
+.\Debug\Load_PNG.obj
+.\Debug\Load_PSD.obj
+.\Debug\Load_TGA.obj
+]
+Creating command line "link.exe -lib @d:\temp\RSP283.tmp"
+<h3>Output Window</h3>
+Compiling...
+adler32.c
+compress.c
+crc32.c
+deflate.c
+gzio.c
+infblock.c
+infcodes.c
+inffast.c
+inflate.c
+inftrees.c
+infutil.c
+trees.c
+uncompr.c
+zutil.c
+png.c
+pngerror.c
+pnggccrd.c
+pngget.c
+pngmem.c
+pngpread.c
+pngread.c
+pngrio.c
+pngrtran.c
+pngrutil.c
+pngset.c
+pngtrans.c
+pngvcrd.c
+pngwio.c
+pngwrite.c
+pngwtran.c
+pngwutil.c
+aux_Bitmap.cpp
+DefaultBMP.cpp
+Load_BMP.cpp
+Load_PNG.cpp
+Load_PSD.cpp
+Load_TGA.cpp
+Creating library...
+<h3>
+--------------------Configuration: *Demo1* - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/BotEditorScrip.res" /i "\Projects\t2\SUPPORT\BotEditor" /d "_DEBUG" "C:\Projects\t2\SUPPORT\BotEditor\BotEditorScrip.rc"" 
+Creating temporary file "d:\temp\RSP284.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "C:\Projects\t2\xCore" /I "C:\Projects\t2\xCore\x_files" /I "C:\Projects\t2\xCore\Entropy" /I "c:\projects\t2\Support" /I "c:\projects\t2" /I "c:\projects\t2\Support\BotEditor" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "X_DEBUG" /D "X_ASSERT" /D "biscuit" /Fp"Debug/Demo1.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Projects\t2\DEMO1\fe_colors.cpp"
+"C:\Projects\t2\DEMO1\fe_Globals.cpp"
+"C:\Projects\t2\DEMO1\FrontEnd.cpp"
+"C:\Projects\t2\DEMO1\GameUser.cpp"
+"C:\Projects\t2\DEMO1\Globals.cpp"
+"C:\Projects\t2\DEMO1\MissionIO.cpp"
+"C:\Projects\t2\DEMO1\serverman.cpp"
+"C:\Projects\t2\DEMO1\event_Input.cpp"
+"C:\Projects\t2\DEMO1\event_Packet.cpp"
+"C:\Projects\t2\DEMO1\event_Render.cpp"
+"C:\Projects\t2\DEMO1\event_Time.cpp"
+"C:\Projects\t2\Support\PointLight\PointLight.cpp"
+"C:\Projects\t2\DEMO1\dlg_Admin.cpp"
+"C:\Projects\t2\DEMO1\dlg_AudioOptions.cpp"
+"C:\Projects\t2\DEMO1\dlg_Brief.cpp"
+"C:\Projects\t2\DEMO1\dlg_Buddies.cpp"
+"C:\Projects\t2\DEMO1\dlg_Campaign.cpp"
+"C:\Projects\t2\DEMO1\dlg_ClientLimits.cpp"
+"C:\Projects\t2\DEMO1\dlg_ControlConfig2.cpp"
+"C:\Projects\t2\DEMO1\dlg_Controls.cpp"
+"C:\Projects\t2\DEMO1\dlg_DeBrief.cpp"
+"C:\Projects\t2\DEMO1\dlg_Debug.cpp"
+"C:\Projects\t2\DEMO1\dlg_Inventory.cpp"
+"C:\Projects\t2\DEMO1\dlg_LoadSave.cpp"
+"C:\Projects\t2\DEMO1\dlg_MainMenu.cpp"
+"C:\Projects\t2\DEMO1\dlg_Message.cpp"
+"C:\Projects\t2\DEMO1\dlg_MissionEnd.cpp"
+"C:\Projects\t2\DEMO1\dlg_MissionLoad.cpp"
+"C:\Projects\t2\DEMO1\dlg_NetworkOptions.cpp"
+"C:\Projects\t2\DEMO1\dlg_Objectives.cpp"
+"C:\Projects\t2\DEMO1\dlg_Online.cpp"
+"C:\Projects\t2\DEMO1\dlg_OnlineHost.cpp"
+"C:\Projects\t2\DEMO1\dlg_OnlineJoin.cpp"
+"C:\Projects\t2\DEMO1\dlg_Player.cpp"
+"C:\Projects\t2\DEMO1\dlg_Score.cpp"
+"C:\Projects\t2\DEMO1\dlg_soundtest.cpp"
+"C:\Projects\t2\DEMO1\dlg_util_RenderController.cpp"
+"C:\Projects\t2\DEMO1\dlg_Vehicle.cpp"
+"C:\Projects\t2\DEMO1\dlg_WarriorSetup.cpp"
+"C:\Projects\t2\DEMO1\ui_joinlist.cpp"
+"C:\Projects\t2\DEMO1\ClientServer.cpp"
+"C:\Projects\t2\DEMO1\ConnManager.cpp"
+"C:\Projects\t2\DEMO1\GameClient.cpp"
+"C:\Projects\t2\DEMO1\GameEventManager.cpp"
+"C:\Projects\t2\DEMO1\GameServer.cpp"
+"C:\Projects\t2\DEMO1\MoveManager.cpp"
+"C:\Projects\t2\DEMO1\sm_campaign.cpp"
+"C:\Projects\t2\DEMO1\sm_client.cpp"
+"C:\Projects\t2\DEMO1\sm_common.cpp"
+"C:\Projects\t2\DEMO1\sm_server.cpp"
+"C:\Projects\t2\DEMO1\UpdateManager.cpp"
+"C:\Projects\t2\DEMO1\telnetclient.cpp"
+"C:\Projects\t2\DEMO1\telnetdisplay.cpp"
+"C:\Projects\t2\DEMO1\telnetmgr.cpp"
+"C:\Projects\t2\Support\Damage\Damage.cpp"
+"C:\Projects\t2\Support\Fog\Fog.cpp"
+"C:\Projects\t2\DEMO1\Main.cpp"
+"C:\Projects\t2\DEMO1\titles.cpp"
+]
+Creating command line "cl.exe @d:\temp\RSP284.tmp" 
+Creating temporary file "d:\temp\RSP285.tmp" with contents
+[
+ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Demo1.pdb" /debug /machine:I386 /out:"Debug/Demo1.exe" /pdbtype:sept 
+.\Debug\fe_colors.obj
+.\Debug\fe_Globals.obj
+.\Debug\FrontEnd.obj
+.\Debug\GameUser.obj
+.\Debug\Globals.obj
+.\Debug\MissionIO.obj
+.\Debug\serverman.obj
+.\Debug\event_Input.obj
+.\Debug\event_Packet.obj
+.\Debug\event_Render.obj
+.\Debug\event_Time.obj
+.\Debug\PointLight.obj
+.\Debug\dlg_Admin.obj
+.\Debug\dlg_AudioOptions.obj
+.\Debug\dlg_Brief.obj
+.\Debug\dlg_Buddies.obj
+.\Debug\dlg_Campaign.obj
+.\Debug\dlg_ClientLimits.obj
+.\Debug\dlg_ControlConfig2.obj
+.\Debug\dlg_Controls.obj
+.\Debug\dlg_DeBrief.obj
+.\Debug\dlg_Debug.obj
+.\Debug\dlg_Inventory.obj
+.\Debug\dlg_LoadSave.obj
+.\Debug\dlg_MainMenu.obj
+.\Debug\dlg_Message.obj
+.\Debug\dlg_MissionEnd.obj
+.\Debug\dlg_MissionLoad.obj
+.\Debug\dlg_NetworkOptions.obj
+.\Debug\dlg_Objectives.obj
+.\Debug\dlg_Online.obj
+.\Debug\dlg_OnlineHost.obj
+.\Debug\dlg_OnlineJoin.obj
+.\Debug\dlg_Player.obj
+.\Debug\dlg_Score.obj
+.\Debug\dlg_soundtest.obj
+.\Debug\dlg_util_RenderController.obj
+.\Debug\dlg_Vehicle.obj
+.\Debug\dlg_WarriorSetup.obj
+.\Debug\ui_joinlist.obj
+.\Debug\ClientServer.obj
+.\Debug\ConnManager.obj
+.\Debug\GameClient.obj
+.\Debug\GameEventManager.obj
+.\Debug\GameServer.obj
+.\Debug\MoveManager.obj
+.\Debug\sm_campaign.obj
+.\Debug\sm_client.obj
+.\Debug\sm_common.obj
+.\Debug\sm_server.obj
+.\Debug\UpdateManager.obj
+.\Debug\telnetclient.obj
+.\Debug\telnetdisplay.obj
+.\Debug\telnetmgr.obj
+.\Debug\Damage.obj
+.\Debug\Fog.obj
+.\Debug\Main.obj
+.\Debug\titles.obj
+.\Debug\BotEditorScrip.res
+\Projects\t2\xCore\Entropy\Debug\Entropy.lib
+"\Projects\t2\Support\NetLib\PC-Debug\NetLib.lib"
+"\Projects\t2\Support\Tokenizer\PC-Debug\Tokenizer.lib"
+\Projects\t2\xCore\x_files\Debug\x_files.lib
+\Projects\t2\Support\ObjectMgr\Debug\ObjectMgr.lib
+\Projects\t2\Support\Objects\Terrain\Debug\Terrain.lib
+"\Projects\t2\Support\Sky\PC-Debug\Sky.lib"
+\Projects\t2\Support\AudioMgr\Debug\audiomgr.lib
+"\Projects\t2\Support\Objects\Player\PC-Debug\PlayerObject.lib"
+"\Projects\t2\Support\Shape\PC-Debug\Shape.lib"
+\Projects\t2\Support\Building\Debug\BuildingObject.lib
+"\Projects\t2\Support\LabelSets\PC-Debug\LabelSets.lib"
+\Projects\t2\Support\Objects\Projectiles\Debug\Projectiles.lib
+\Projects\t2\Support\Particles\Debug\Particles.lib
+\Projects\t2\Support\Objects\Bot\Debug\BotObject.lib
+\Projects\t2\Support\Objects\Pickups\Debug\Pickups.lib
+\Projects\t2\Support\Objects\Vehicles\Debug\Vehicle.lib
+\Projects\t2\Support\GameMgr\Debug\GameMgr.lib
+\Projects\t2\Support\HUD\Debug\HUD.lib
+\Projects\t2\Support\UI\Debug\UI.lib
+\Projects\t2\Support\MoviePlayer\Debug\MoviePlayer.lib
+\Projects\t2\Support\CardMgr\Debug\cardmgr.lib
+\Projects\t2\SUPPORT\BotEditor\Debug\BotEditor.lib
+\Projects\t2\Support\Poly\Debug\poly.lib
+\Projects\t2\Support\MasterServer\Debug\MasterServer.lib
+\Projects\t2\Support\CleanText\Debug\CleanText.lib
+\Projects\t2\Support\StringMgr\Debug\StringMgr.lib
+\Projects\t2\xCore\Auxiliary\bitmap\Debug\aux_Bitmap.lib
+]
+Creating command line "link.exe @d:\temp\RSP285.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+fe_colors.cpp
+fe_Globals.cpp
+FrontEnd.cpp
+GameUser.cpp
+Globals.cpp
+MissionIO.cpp
+serverman.cpp
+event_Input.cpp
+event_Packet.cpp
+event_Render.cpp
+event_Time.cpp
+PointLight.cpp
+dlg_Admin.cpp
+dlg_AudioOptions.cpp
+dlg_Brief.cpp
+dlg_Buddies.cpp
+dlg_Campaign.cpp
+dlg_ClientLimits.cpp
+dlg_ControlConfig2.cpp
+dlg_Controls.cpp
+dlg_DeBrief.cpp
+dlg_Debug.cpp
+dlg_Inventory.cpp
+dlg_LoadSave.cpp
+dlg_MainMenu.cpp
+dlg_Message.cpp
+dlg_MissionEnd.cpp
+dlg_MissionLoad.cpp
+dlg_NetworkOptions.cpp
+dlg_Objectives.cpp
+dlg_Online.cpp
+dlg_OnlineHost.cpp
+dlg_OnlineJoin.cpp
+dlg_Player.cpp
+dlg_Score.cpp
+dlg_soundtest.cpp
+dlg_util_RenderController.cpp
+dlg_Vehicle.cpp
+dlg_WarriorSetup.cpp
+ui_joinlist.cpp
+ClientServer.cpp
+ConnManager.cpp
+GameClient.cpp
+GameEventManager.cpp
+GameServer.cpp
+c:\projects\t2\demo1\gameserver.cpp(1334) : warning C4101: 'i' : unreferenced local variable
+c:\projects\t2\demo1\gameserver.cpp(1333) : warning C4101: 'pPlayer' : unreferenced local variable
+MoveManager.cpp
+sm_campaign.cpp
+sm_client.cpp
+sm_common.cpp
+sm_server.cpp
+UpdateManager.cpp
+telnetclient.cpp
+telnetdisplay.cpp
+telnetmgr.cpp
+Damage.cpp
+Fog.cpp
+Main.cpp
+titles.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Demo1.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>
